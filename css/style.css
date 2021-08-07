@@ -76,9 +76,16 @@ body {
     line-height: 24px;
     color: var(--font-light);
     text-decoration: none;
+    transition: opacity 0.35s linear;
 }
 .header__link:hover,
 .header__link:focus,
 .header__link:active {
-    opacity: 0.785;
+    opacity: 0.75;
+}
+
+#intro {
+    height: 100vh;
+    background: url("../assets/img/background.jpg") no-repeat center;
+    background-size: cover;
 }
