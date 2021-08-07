@@ -51,6 +51,9 @@ body {
     max-width: 1060px;
     margin: 0 auto;
 }
+
+/* Header styles start */
+
 .header {
     position: fixed;
     top: 0;
@@ -84,8 +87,14 @@ body {
     opacity: 0.75;
 }
 
+/* Header styles end */
+
+/* Intro styles start */
+
 #intro {
     height: 100vh;
     background: url("../assets/img/background.jpg") no-repeat center;
     background-size: cover;
 }
+
+/* Intro styles end */
