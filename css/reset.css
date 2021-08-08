@@ -135,6 +135,11 @@ html {
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 
+a,
+a:visited {
+    text-decoration: none;
+}
+
 a:focus {
     outline: thin dotted;
 }
