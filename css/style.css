@@ -119,7 +119,7 @@ body {
 }
 .search-form__field {
     width: 297px;
-    background: transparent url("../assets/svg/marker.svg") no-repeat left 6px;
+    background: transparent url("../assets/svg/marker.svg") no-repeat left 10px;
     background-size: 20px;
     border: 0;
     border-bottom: 2px solid #BFC0C5;
@@ -131,9 +131,6 @@ body {
     color: var(--font-light);
 }
 .search-form__field::placeholder {
-    font-size: 18px;
-    line-height: 24px;
-    color: var(--font-light);
     opacity: 1;
 }
 .search-form__submit {
