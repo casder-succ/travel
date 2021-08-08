@@ -353,6 +353,10 @@ textarea {
 img {
     vertical-align: middle;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 fieldset {
     border: 0;
