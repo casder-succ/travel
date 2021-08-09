@@ -1,7 +1,7 @@
 # Travel
 ## Author: Vadim Samal
-### Applied technologies
+### Applied technologies:
 - HTML
 - CSS
-### Link to view
+### Link to view:
 https://casder-succ.github.io/travel/
