@@ -338,6 +338,8 @@ body {
 
 /* Places styles end */
 
+/* Tours styles start*/
+
 #tours {
     margin-bottom: 139px;
 }
@@ -374,3 +376,86 @@ body {
 .tour__link:focus {
     opacity: 0.6;
 }
+
+/* Tours styles end */
+
+/* Top styles start */
+
+#top {
+    margin-bottom: 86px;
+}
+.top__title {
+    margin-bottom: 54px;
+}
+.top__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+.top__card-pic {
+    position: relative;
+    margin-bottom: 45px;
+}
+.top__card {
+    display: flex;
+    flex-direction: column;
+
+}
+.top__card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px;
+}
+.top__card-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 auto 0 0;
+}
+.top__card-likes {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-right: 20px;
+    margin-right: 14px;
+    background: url("../assets/svg/heart-icon.svg") no-repeat right;
+}
+.top__card-comments {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-right: 23px;
+    background: url("../assets/svg/comments-icon.svg") no-repeat right;
+ }
+.top__card-desc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+}
+.top__card-link {
+    width: 118px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 12px 19px;
+    margin-top: auto;
+    background: #006DFE;
+    transition: .25s linear;
+}
+.top__card-link:hover,
+.top__card-link:focus,
+.top__card-link:active {
+    background: #085EC2;
+}
+
+/* Top styles end */
