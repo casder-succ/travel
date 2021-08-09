@@ -337,3 +337,40 @@ body {
 }
 
 /* Places styles end */
+
+#tours {
+    margin-bottom: 139px;
+}
+.tours__tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+.tour__info {
+    padding-left: 47px;
+}
+.tour__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+.tour__desc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+.tour__link {
+    background: url("../assets/svg/arrow.svg") no-repeat 95% center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--blue);
+    padding-right: 59px;
+    transition: .25s linear;
+}
+.tour__link:hover,
+.tour__link:focus {
+    opacity: 0.6;
+}
