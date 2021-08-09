@@ -247,6 +247,8 @@ body {
 
 /* Benefits styles end */
 
+/* Places styles start */
+
 #places {
     margin-bottom: 131px;
 }
@@ -333,3 +335,5 @@ body {
     height: 100%;
     z-index: 4;
 }
+
+/* Places styles end */
