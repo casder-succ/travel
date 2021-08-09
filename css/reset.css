@@ -161,6 +161,8 @@ a:hover {
 img {
     border: 0; /* 1 */
     -ms-interpolation-mode: bicubic; /* 2 */
+    user-select: none;
+    pointer-events: none;
 }
 
 /**
