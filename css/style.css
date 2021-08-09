@@ -394,12 +394,22 @@ body {
 }
 .top__card-pic {
     position: relative;
-    margin-bottom: 45px;
 }
 .top__card {
     display: flex;
     flex-direction: column;
-
+}
+.top__card-more {
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.top__card-thumb {
+    transition: .25s;
+}
+.top__card-more:hover .top__card-thumb,
+.top__card-more:active .top__card-thumb,
+.top__card-more:focus .top__card-thumb {
+    transform: scale(1.1);
 }
 .top__card-stats {
     display: flex;
