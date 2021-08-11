@@ -478,6 +478,7 @@ body {
 
 #video {
     width: 100%;
+    margin-bottom: 75px;
 }
 .videos__wrapper {
     max-width: 1440px;
@@ -493,4 +494,39 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.footer {
+    background: var(--bg-dark-blue);
+    padding: 119px 0;
+}
+.footer__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__logo {
+    flex-basis: 50%;
+}
+.footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+.footer__menu-title {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer__menu-link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: .25s;
+}
+.footer__menu-link:hover,
+.footer__menu-link:active,
+.footer__menu-link:focus {
+    opacity: 0.6;
 }
