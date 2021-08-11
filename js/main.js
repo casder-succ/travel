@@ -9,6 +9,8 @@
     };
 }());
 
+// burger handler
+
 (function () {
     const burgerItem = document.querySelector('.header__burger');
     const menu = document.querySelector('.header__nav');

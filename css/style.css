@@ -565,6 +565,7 @@ body {
 
 /* Footer styles end */
 
+/* Media styles start */
 
 @media screen and (max-width: 767px) {
     .header__burger {
@@ -620,3 +621,5 @@ body {
         transform: translateY(-50%) rotate(-45deg);
     }
 }
+
+/* Media styles end */
