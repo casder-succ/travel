@@ -84,6 +84,12 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    transition: 0.4s;
+    z-index: 5;
+    padding-bottom: 25px;
+}
+.header__active {
+    background: var(--bg-dark-blue);
 }
 .header__wrapper {
     display: flex;
@@ -469,3 +475,22 @@ body {
 }
 
 /* Top styles end */
+
+#video {
+    width: 100%;
+}
+.videos__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.videos__item {
+    padding-top: 56.25%;
+}
+.videos__element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
